@@ -1,17 +1,17 @@
 var path = require("path");
-var htmlHome = "/../public/home.html";
-var htmlSurvey = "/../public/survey.html";
+var home = "/../public/home.html";
+var survey = "/../public/survey.html";
 
 module.exports = function (app) {
     app.get("/", function (req, res) {
-        res.sendFile(path.join(__dirname, htmlHome));
+        res.sendFile(path.join(__dirname, home));
     });
 
     app.get("/home", function (req, res) {
-        res.sendFile(path.join(__dirname, htmlHome));
+        res.sendFile(path.join(__dirname, home));
     });
 
     app.get("/survey", function (req, res) {
-        res.sendFile(path.join(__dirname, htmlSurvey));
+        res.sendFile(path.join(__dirname, survey));
     });
 }
