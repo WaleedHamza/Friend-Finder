@@ -52,7 +52,7 @@
             <hr>
             <h5>3. You find it easy to stay relaxed and focused even when there is some
                 pressure.</h5>
-            <select id="q3">
+                <select id="q3">
                   <option ></option>
                     <option value"1">1 (Strongly Disagree)</option>
                     <option value"2">2</option>
@@ -113,7 +113,7 @@
             <hr>
             <h5>9. You think that everyone’s views should be respected regardless of whether
                 they are supported by facts or not.</h5>
-            <select id="q9">
+                <select id="q9">
                   <option ></option>
                     <option value"1">1 (Strongly Disagree)</option>
                     <option value"2">2</option>
@@ -170,7 +170,8 @@
             </div>
 <script>
     $("#submit").on('click', function () {
-        // console.log('submit clicked'); User input validation
+        console.log('submit clicked'); 
+        //User input validation
         function valid() {
             var isValid = true;
             $(".form-control").each(function () {
@@ -200,20 +201,15 @@
                     $('#q10').val()
                 ]
             } //end of userData
-
-            // console.log(userData);
             //grab the current page url to send to the api
             var currentUrl = window.location.origin;
             //Using AJAX to post data
             
             $.post('api/friends', userData)
                 .then((data) => {
-                    // var friendsDb = [];     
-                    // for( i  = 0 ; i < data.length ; i++){
-                    // friendsDb.push(data[i].scores);     }
-console.log(data);
-console.log(data.name);
-console.log(data.photo);
+                console.log(data);
+                console.log(data.name);
+                console.log(data.photo);
                     $('#matchName').text(data.name);
                     $('#matchImg').attr('src', data.photo);
                     $('#resultModal').modal('toggle');

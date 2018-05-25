@@ -1,4 +1,4 @@
-module.exports.friends = [
+module.exports = [
     {name: "John",
     photo: "https://pp.vk.me/c7011/v7011723/23c2c/XDaJjfRyL70.jpg",
     scores: [5, 5, 5, 0, 4, 5, 5, 0, 0, 5],
