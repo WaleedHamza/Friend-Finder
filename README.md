@@ -6,4 +6,4 @@ A compatibility-based application that finds the user a charechter that matches 
 Bro Finder is meant to simulate a simple dating app. The application is build using a Node.js and Express server on the back end and the Bootstrap CSS framework on the front end.
 
 ##Demo
-[Heroku](https://thawing-bayou-38205.herokuapp.com/)
+[@Heroku](https://thawing-bayou-38205.herokuapp.com/)
