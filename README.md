@@ -1,6 +1,6 @@
 # Bro Finder
 
-##Description
+## Description
 
 A compatibility-based application that finds the user a charechter that matches the users personality base on the users answears to 10 questoin in the survey section, once the user click on the submit button the app will display the character that most likely to matches the users.
 
