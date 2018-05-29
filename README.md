@@ -1,4 +1,4 @@
-# Bro Finder
+# Bro Finder App
 
 ## Description
 
