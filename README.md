@@ -7,4 +7,4 @@ Bro Finder is meant to simulate a simple dating app. The application is build us
 
 
 ## Demo
-[@Heroku](https://thawing-bayou-38205.herokuapp.com/)
+[@Heroku](https://glacial-beyond-19940.herokuapp.com/)
